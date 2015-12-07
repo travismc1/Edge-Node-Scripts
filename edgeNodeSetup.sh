@@ -121,8 +121,8 @@ echo "$headnode0ip headnode0">>/etc/hosts
 echo "$headnode1ip headnode1">>/etc/hosts
 
 #Install WebWasb
-WEBWASB_TARFILE=WebWasb-0.0.1-SNAPSHOT.war
-WEBWASB_TARFILEURI=http://hdicurrentwestus.blob.core.windows.net/trifactadeployment/$WEBWASB_TARFILE
+WEBWASB_TARFILE=webwasb-tomcat.tar.gz
+WEBWASB_TARFILEURI=http://trifactaappend.blob.core.windows.net/configactions/$WEBWASB_TARFILE
 WEBWASB_TMPFOLDER=/tmp/webwasb
 WEBWASB_INSTALLFOLDER=/usr/share/webwasb-tomcat
 
